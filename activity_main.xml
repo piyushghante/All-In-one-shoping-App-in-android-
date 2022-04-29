@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/gridview_android_example"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:layout_marginBottom="128dp"
+    android:columnCount="5"
+
+    app:layout_constraintBaseline_toTopOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toStartOf="parent"
+    app:layout_constraintHorizontal_bias="100"
+    app:layout_constraintStart_toEndOf="parent">
+<!--        android:background="@color/bg"-->
+
+
+
+        <ImageButton
+            android:id="@+id/onemg"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/onemg" />
+
+
+        <ImageButton
+            android:id="@+id/ajio"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ajioround" />
+
+        <ImageButton
+            android:id="@+id/aliex"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/aliexpressround" />
+
+        <ImageButton
+            android:id="@+id/amezon"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/amazonround" />
+
+        <ImageButton
+            android:id="@+id/bangw"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/bangwood" />
+        <ImageButton
+            android:id="@+id/bms"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/bookmyshowround" />
+
+        <ImageButton
+            android:id="@+id/clubf"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/clubfactorysqure" />
+
+        <ImageButton
+            android:id="@+id/dominos"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/dominos" />
+        <ImageButton
+            android:id="@+id/firstcry"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/firstcryround" />
+
+        <ImageButton
+            android:id="@+id/flipkart"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/flipkartround" />
+
+        <ImageButton
+            android:id="@+id/freecharge"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/freecharge" />
+
+        <ImageButton
+            android:id="@+id/goibibo"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/goibibo" />
+
+        <ImageButton
+            android:id="@+id/lenskart"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/lenskart" />
+
+        <ImageButton
+            android:id="@+id/mac"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/macdonald" />
+
+        <ImageButton
+            android:id="@+id/makemytrip"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/makemytrip" />
+
+        <ImageButton
+            android:id="@+id/mobikwik"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/mobikwik" />
+
+        <ImageButton
+            android:id="@+id/myntra"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/myntraround" />
+
+        <ImageButton
+            android:id="@+id/netmeds"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/nethmeds" />
+
+        <ImageButton
+            android:id="@+id/nayka"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/nykaa" />
+
+        <ImageButton
+            android:id="@+id/paytmm"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/paytmmallround" />
+
+        <ImageButton
+            android:id="@+id/paytm"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/paytmround" />
+
+        <ImageButton
+            android:id="@+id/pizzahat"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/pizzahut" />
+
+        <ImageButton
+            android:id="@+id/pvr"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/pvr" />
+
+        <ImageButton
+            android:id="@+id/shopclus"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/shopcluesround" />
+
+        <ImageButton
+            android:id="@+id/snapdeal"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/snapdeal" />
+
+        <ImageButton
+            android:id="@+id/swiggy"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/swiggyround" />
+
+        <ImageButton
+            android:id="@+id/tata"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/tatacliqround" />
+
+        <ImageButton
+            android:id="@+id/twogud"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/twogudround" />
+
+        <ImageButton
+            android:id="@+id/zomato"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/zomatoround" />
+        <ImageButton
+            android:id="@+id/insta"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/instagram" />
+        <ImageButton
+            android:id="@+id/youtube"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/youtubee" />
+        <ImageButton
+            android:id="@+id/twitter"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/twitter" />
+        <ImageButton
+            android:id="@+id/yahoo"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/yahoo" />
+        <ImageButton
+            android:id="@+id/bbc"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/bbcnews" />
+
+        <ImageButton
+            android:id="@+id/cricbuzz"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/cricbuzz" />
+</GridLayout>
+
+

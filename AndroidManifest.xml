@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.finaldemo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logooutpal"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logooutpal"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FinalDemo">
+        <activity android:name=".cricbuzz" />
+        <activity android:name=".bbc" />
+        <activity android:name=".yahoo" />
+        <activity android:name=".twitter" />
+        <activity android:name=".youtube" />
+        <activity android:name=".insta" />
+        <activity android:name=".zomato" />
+        <activity android:name=".twogud" />
+        <activity android:name=".tata" />
+        <activity android:name=".swiggy" />
+        <activity android:name=".snapdeal" />
+        <activity android:name=".pvr" />
+        <activity android:name=".shopclus" />
+        <activity android:name=".paytm" />
+        <activity android:name=".pizzahat" />
+        <activity android:name=".paytmm" />
+        <activity android:name=".nayka" />
+        <activity android:name=".netmeds" />
+        <activity android:name=".myntra" />
+        <activity android:name=".mobikwik" />
+        <activity android:name=".makemytrip" />
+        <activity android:name=".mac" />
+        <activity android:name=".lenskart" />
+        <activity android:name=".goibibo" />
+        <activity android:name=".freecharge" />
+        <activity android:name=".flipkart" />
+        <activity android:name=".firstcry" />
+        <activity android:name=".dominos" />
+        <activity android:name=".clubf" />
+        <activity android:name=".bms" />
+        <activity android:name=".bangw" />
+        <activity android:name=".amezon" />
+        <activity android:name=".aliex" />
+        <activity android:name=".ajio" />
+        <activity android:name=".onemg" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
